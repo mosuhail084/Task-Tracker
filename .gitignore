@@ -1,23 +1,46 @@
+# Ignore vendor directory
 /vendor/
-node_modules/
+
+# Ignore Node.js dependencies
+/node_modules/
 npm-debug.log
 yarn-error.log
 
-# Laravel 4 specific
+# Laravel 4 specific files
 bootstrap/compiled.php
 app/storage/
 
-# Laravel 5 & Lumen specific
+# Laravel 5 & Lumen specific files
 public/storage
 public/hot
 
-# Laravel 5 & Lumen specific with changed public path
+# Laravel 5 & Lumen specific files with changed public path
 public_html/storage
 public_html/hot
 
+# Ignore storage files
 storage/*.key
+storage/*.log
+storage/debugbar/*
+storage/framework/*
+storage/app/*
+storage/testing/*
+
+# Ignore environment files
 .env
+
+# Homestead specific files
 Homestead.yaml
 Homestead.json
 /.vagrant
+
+# PHPUnit cache
 .phpunit.result.cache
+
+# Other IDE and OS-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+.DS_Store
+Thumbs.db
