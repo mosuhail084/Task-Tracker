@@ -93,11 +93,20 @@ php artisan serve
 ```
 You can access the application at `http://localhost:8000`.
 
+## Default User Credentials
+You can log in with the following default user credentials for the admin role:
+- **Email:** admin@admin.com
+- **Password:** 12345678
+
 ## Features
 - Role-based access control (Admin, Manager, User)
 - Task assignment and management
 - Email notifications when tasks are assigned
 - Soft delete functionality for tasks
+
+## Acknowledgments
+- Laravel Framework
+- Bootstrap for UI design
 
 ## Contributing
 Contributions are welcome! Please create an issue or submit a pull request for any enhancements or bug fixes.
